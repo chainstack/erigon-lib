@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ledgerwatch/erigon-lib/common"
+	"github.com/chainstack/erigon-lib/common"
 	"github.com/torquem-ch/mdbx-go/mdbx"
 	"go.uber.org/atomic"
 )

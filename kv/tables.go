@@ -20,7 +20,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ledgerwatch/erigon-lib/gointerfaces/types"
+	"github.com/chainstack/erigon-lib/gointerfaces/types"
 )
 
 // DBSchemaVersion versions list

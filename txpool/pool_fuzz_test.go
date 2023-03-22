@@ -6,7 +6,7 @@ import (
 	"bytes"
 	"context"
 	"encoding/binary"
-	"github.com/ledgerwatch/erigon-lib/common"
+	"github.com/chainstack/erigon-lib/common"
 	"testing"
 
 	"github.com/holiman/uint256"
@@ -14,14 +14,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ledgerwatch/erigon-lib/common/u256"
-	"github.com/ledgerwatch/erigon-lib/gointerfaces"
-	"github.com/ledgerwatch/erigon-lib/gointerfaces/remote"
-	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon-lib/kv/kvcache"
-	"github.com/ledgerwatch/erigon-lib/kv/memdb"
-	"github.com/ledgerwatch/erigon-lib/rlp"
-	"github.com/ledgerwatch/erigon-lib/types"
+	"github.com/chainstack/erigon-lib/common/u256"
+	"github.com/chainstack/erigon-lib/gointerfaces"
+	"github.com/chainstack/erigon-lib/gointerfaces/remote"
+	"github.com/chainstack/erigon-lib/kv"
+	"github.com/chainstack/erigon-lib/kv/kvcache"
+	"github.com/chainstack/erigon-lib/kv/memdb"
+	"github.com/chainstack/erigon-lib/rlp"
+	"github.com/chainstack/erigon-lib/types"
 )
 
 // https://go.dev/doc/fuzz/

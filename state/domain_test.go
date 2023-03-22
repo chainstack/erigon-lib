@@ -30,9 +30,9 @@ import (
 	"github.com/stretchr/testify/require"
 	btree2 "github.com/tidwall/btree"
 
-	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon-lib/kv/mdbx"
-	"github.com/ledgerwatch/erigon-lib/recsplit"
+	"github.com/chainstack/erigon-lib/kv"
+	"github.com/chainstack/erigon-lib/kv/mdbx"
+	"github.com/chainstack/erigon-lib/recsplit"
 )
 
 func testDbAndDomain(t *testing.T) (string, kv.RwDB, *Domain) {

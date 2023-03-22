@@ -27,10 +27,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ledgerwatch/erigon-lib/common/assert"
-	"github.com/ledgerwatch/erigon-lib/common/dir"
-	"github.com/ledgerwatch/erigon-lib/kv/bitmapdb"
-	"github.com/ledgerwatch/erigon-lib/recsplit"
+	"github.com/chainstack/erigon-lib/common/assert"
+	"github.com/chainstack/erigon-lib/common/dir"
+	"github.com/chainstack/erigon-lib/kv/bitmapdb"
+	"github.com/chainstack/erigon-lib/recsplit"
 	"github.com/ledgerwatch/log/v3"
 	atomic2 "go.uber.org/atomic"
 )

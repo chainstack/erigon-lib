@@ -24,9 +24,9 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/ledgerwatch/erigon-lib/common/hexutility"
-	"github.com/ledgerwatch/erigon-lib/common/length"
-	"github.com/ledgerwatch/erigon-lib/crypto/cryptopool"
+	"github.com/chainstack/erigon-lib/common/hexutility"
+	"github.com/chainstack/erigon-lib/common/length"
+	"github.com/chainstack/erigon-lib/crypto/cryptopool"
 )
 
 var (
