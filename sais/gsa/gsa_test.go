@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/chainstack/erigon-lib/sais"
+	"github.com/ledgerwatch/erigon-lib/sais"
 	"github.com/stretchr/testify/assert"
 )
 

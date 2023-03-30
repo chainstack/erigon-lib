@@ -28,8 +28,8 @@ import (
 	"github.com/ledgerwatch/log/v3"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/chainstack/erigon-lib/common/length"
-	"github.com/chainstack/erigon-lib/rlp"
+	"github.com/ledgerwatch/erigon-lib/common/length"
+	"github.com/ledgerwatch/erigon-lib/rlp"
 )
 
 const (

@@ -16,11 +16,11 @@ import (
 	"github.com/c2h5oh/datasize"
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/chainstack/erigon-lib/common"
-	"github.com/chainstack/erigon-lib/common/length"
-	"github.com/chainstack/erigon-lib/compress"
-	"github.com/chainstack/erigon-lib/etl"
-	"github.com/chainstack/erigon-lib/mmap"
+	"github.com/ledgerwatch/erigon-lib/common"
+	"github.com/ledgerwatch/erigon-lib/common/length"
+	"github.com/ledgerwatch/erigon-lib/compress"
+	"github.com/ledgerwatch/erigon-lib/etl"
+	"github.com/ledgerwatch/erigon-lib/mmap"
 )
 
 func logBase(n, base uint64) uint64 {

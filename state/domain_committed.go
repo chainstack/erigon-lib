@@ -31,10 +31,10 @@ import (
 	"github.com/ledgerwatch/log/v3"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/chainstack/erigon-lib/commitment"
-	"github.com/chainstack/erigon-lib/common"
-	"github.com/chainstack/erigon-lib/common/length"
-	"github.com/chainstack/erigon-lib/compress"
+	"github.com/ledgerwatch/erigon-lib/commitment"
+	"github.com/ledgerwatch/erigon-lib/common"
+	"github.com/ledgerwatch/erigon-lib/common/length"
+	"github.com/ledgerwatch/erigon-lib/compress"
 )
 
 // Defines how to evaluate commitments

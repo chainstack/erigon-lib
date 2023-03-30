@@ -26,8 +26,8 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/chainstack/erigon-lib/gointerfaces/sentry"
-	"github.com/chainstack/erigon-lib/gointerfaces/types"
+	"github.com/ledgerwatch/erigon-lib/gointerfaces/sentry"
+	"github.com/ledgerwatch/erigon-lib/gointerfaces/types"
 )
 
 const (

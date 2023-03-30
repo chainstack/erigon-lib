@@ -3,7 +3,7 @@ package remote
 import (
 	"strings"
 
-	"github.com/chainstack/erigon-lib/gointerfaces/types"
+	"github.com/ledgerwatch/erigon-lib/gointerfaces/types"
 )
 
 func NodeInfoReplyLess(i, j *types.NodeInfoReply) bool {

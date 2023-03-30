@@ -27,11 +27,11 @@ import (
 
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/chainstack/erigon-lib/common"
-	"github.com/chainstack/erigon-lib/common/cmp"
-	"github.com/chainstack/erigon-lib/compress"
-	"github.com/chainstack/erigon-lib/recsplit"
-	"github.com/chainstack/erigon-lib/recsplit/eliasfano32"
+	"github.com/ledgerwatch/erigon-lib/common"
+	"github.com/ledgerwatch/erigon-lib/common/cmp"
+	"github.com/ledgerwatch/erigon-lib/compress"
+	"github.com/ledgerwatch/erigon-lib/recsplit"
+	"github.com/ledgerwatch/erigon-lib/recsplit/eliasfano32"
 )
 
 func (d *Domain) endTxNumMinimax() uint64 {

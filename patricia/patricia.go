@@ -21,7 +21,7 @@ import (
 	"math/bits"
 	"strings"
 
-	"github.com/chainstack/erigon-lib/sais"
+	"github.com/ledgerwatch/erigon-lib/sais"
 	"golang.org/x/exp/slices"
 )
 

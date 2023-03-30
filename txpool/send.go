@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/chainstack/erigon-lib/direct"
-	"github.com/chainstack/erigon-lib/gointerfaces/sentry"
-	"github.com/chainstack/erigon-lib/rlp"
-	types2 "github.com/chainstack/erigon-lib/types"
+	"github.com/ledgerwatch/erigon-lib/direct"
+	"github.com/ledgerwatch/erigon-lib/gointerfaces/sentry"
+	"github.com/ledgerwatch/erigon-lib/rlp"
+	types2 "github.com/ledgerwatch/erigon-lib/types"
 	"github.com/ledgerwatch/log/v3"
 	"google.golang.org/grpc"
 )

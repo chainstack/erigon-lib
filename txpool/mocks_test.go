@@ -5,9 +5,9 @@ package txpool
 
 import (
 	"context"
-	"github.com/chainstack/erigon-lib/gointerfaces/remote"
-	"github.com/chainstack/erigon-lib/kv"
-	types2 "github.com/chainstack/erigon-lib/types"
+	"github.com/ledgerwatch/erigon-lib/gointerfaces/remote"
+	"github.com/ledgerwatch/erigon-lib/kv"
+	types2 "github.com/ledgerwatch/erigon-lib/types"
 	"sync"
 )
 

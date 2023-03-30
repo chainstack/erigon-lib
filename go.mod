@@ -1,4 +1,4 @@
-module github.com/chainstack/erigon-lib
+module github.com/ledgerwatch/erigon-lib
 
 go 1.18
 

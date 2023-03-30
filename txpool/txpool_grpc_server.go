@@ -37,12 +37,12 @@ import (
 	"google.golang.org/grpc/reflection"
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/chainstack/erigon-lib/common"
-	"github.com/chainstack/erigon-lib/gointerfaces"
-	txpool_proto "github.com/chainstack/erigon-lib/gointerfaces/txpool"
-	types2 "github.com/chainstack/erigon-lib/gointerfaces/types"
-	"github.com/chainstack/erigon-lib/kv"
-	"github.com/chainstack/erigon-lib/types"
+	"github.com/ledgerwatch/erigon-lib/common"
+	"github.com/ledgerwatch/erigon-lib/gointerfaces"
+	txpool_proto "github.com/ledgerwatch/erigon-lib/gointerfaces/txpool"
+	types2 "github.com/ledgerwatch/erigon-lib/gointerfaces/types"
+	"github.com/ledgerwatch/erigon-lib/kv"
+	"github.com/ledgerwatch/erigon-lib/types"
 )
 
 // TxPoolAPIVersion

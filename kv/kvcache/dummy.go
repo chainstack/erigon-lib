@@ -18,8 +18,8 @@ package kvcache
 import (
 	"context"
 
-	"github.com/chainstack/erigon-lib/gointerfaces/remote"
-	"github.com/chainstack/erigon-lib/kv"
+	"github.com/ledgerwatch/erigon-lib/gointerfaces/remote"
+	"github.com/ledgerwatch/erigon-lib/kv"
 )
 
 // DummyCache - doesn't remember anything - can be used when service is not remote
