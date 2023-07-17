@@ -61,3 +61,7 @@ func EnsureEnoughSize(in []byte, size int) []byte {
 	}
 	return in[:size] // Reuse the space if it has enough capacity
 }
+
+func BitLenToByteLen(bitLen int) (byteLen int) {
+	return (bitLen + 7) / 8
+}
